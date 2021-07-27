@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  background-color: black;
+  position: relative;
+  height: 100vh;
+}
+
+.homeleft {
+  flex: 3;
+  background-color: blue;
+}
+.homeright {
+  flex: 9;
+  background-color: green;
+}
