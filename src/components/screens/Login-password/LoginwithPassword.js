@@ -15,28 +15,20 @@ const LoginwithPassword = () => {
     window.M.toast({ html: "welcome", classes: "green" });
     history.push("./");
 
-    // fetch("/login", {
+    // fetch("https://main.badidukkan.com/api/auth/login-with-password", {
     //   method: "post",
     //   headers: {
     //     "Content-Type": "application/json",
     //   },
     //   body: JSON.stringify({
+    //     mobileNumber: mobno.slice(-10),
     //     password: password,
-    //     mobno: mobno,
     //   }),
     // })
     //   .then((res) => res.json())
     //   .then((data) => {
-    //     // console.log(data);
-    //     localStorage.setItem("jwt", data.token);
-    //     localStorage.setItem("user", JSON.stringify(data.user));
-    //     dispatch({ type: "USER", payload: data.user });
-    //     if (data.msg) {
-    //       M.toast({ html: data.msg });
-    //     } else {
-    //       M.toast({ html: "Welcome" });
-    //       history.push("./");
-    //     }
+    //     console.log(data.user);
+    //     dispatch({ type: "USER", payload: true });
     //   })
     //   .catch((er) => {
     //     console.log(er);

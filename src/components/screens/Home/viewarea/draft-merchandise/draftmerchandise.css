@@ -1,0 +1,25 @@
+.draftmerchandise {
+  flex: 8;
+}
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #3b99b0;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}

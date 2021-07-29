@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { UserContext } from "../../../App";
+import { UserContext } from "../../App";
 import { useHistory } from "react-router-dom";
 
 const Navbar = () => {
@@ -29,14 +29,14 @@ const Navbar = () => {
               </button>
             </li>
           ) : (
-            <li>
+            <ul>
               <li>
                 <Link to="/login">Login</Link>
               </li>
               <li>
                 <Link to="/otp">Login with OTP</Link>
               </li>
-            </li>
+            </ul>
           )}
         </ul>
       </div>

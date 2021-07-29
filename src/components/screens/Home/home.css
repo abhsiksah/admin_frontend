@@ -1,15 +1,6 @@
 .home {
+  /* background-color: black; */
   display: flex;
-  background-color: black;
-  position: relative;
-  height: 100vh;
-}
-
-.homeleft {
-  flex: 3;
-  background-color: blue;
-}
-.homeright {
-  flex: 9;
-  background-color: green;
+  height: calc(100vh - 64px);
+  /* border: 1px black solid; */
 }

@@ -1,6 +1,6 @@
 import "./App.css";
 import Login from "./components/screens/Login/Login";
-import Navbar from "./components/screens/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import React, { useEffect, createContext, useReducer, useContext } from "react";
 import {
   BrowserRouter as Router,
